@@ -11,10 +11,10 @@ const BigCard = ({ title, description }) => {
                 This React JS app hosted on Netlify allows users to search and explore videos by content creators, genres, and types, leveraging Rapid API&apos;s V3 YouTube API for a diverse viewing experience.
             </div>
             <div className="mt-1 flex justify-center items-center">
-                <a href="/" className="px-2 py-1 mr-3 uppercase trxt-[14px] bg-[#2563eb] flex justify-center items-center w-[102px] rounded-lg">
+                <a href="/" className="px-2 py-1 mr-3 uppercase text-[14px] bg-[#2563eb] flex justify-center items-center w-[102px] rounded-lg hover:bg-[#1F54C8]">
                     <span>GitHub</span> <BsFillArrowRightCircleFill className="ml-2 text-[14px]" />
                 </a>
-                <a href="/" className="px-2 py-1 ml-3 uppercase trxt-[14px] bg-[#2563eb] flex justify-center items-center w-[102px] rounded-lg">
+                <a href="/" className="px-2 py-1 ml-3 uppercase text-[14px] bg-[#2563eb] flex justify-center items-center w-[102px] rounded-lg hover:bg-[#1F54C8]">
                     <span>Demo</span> <BsFillArrowRightCircleFill className="ml-2" />
                 </a>
             </div>
