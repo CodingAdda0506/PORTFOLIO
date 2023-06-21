@@ -9,7 +9,7 @@ const About = () => {
                 <Image src="https://avatars.githubusercontent.com/u/80524895?v=4" alt="" width={500} height={500} className="w-[315px]" />
             </div>
             {/* Name */}
-            <div className="text-white font-bold font-firaCode text-[30px] mt-2">
+            <div className="text-white font-bold font-firaCode text-[30px] mt-2k ">
                 Aditya Trivedi
             </div>
             {/* Resume Button  */}
