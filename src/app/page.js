@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import About from './components/ProflieSection/About';
 import Achivement from './components/ProflieSection/Achivement';
-import Experience from './components/ProflieSection/Experience';
+import ExpSection from './components/ProflieSection/ExpSection';
 import Socials from './components/ProflieSection/Socials';
 
 export default function Home() {
@@ -14,8 +14,7 @@ export default function Home() {
 				<div className="my-3 w-[300px] border-[1px] border-[#768390]"></div>
 				<Achivement />
 				<div className="my-3 w-[300px] border-[1px] border-[#768390]"></div>
-				{/* <div className=""></div> */}
-				{/* <Experience /> */}
+				<ExpSection />
 			</section>
 			<section className="border-2 border-blue-500 w-[70%] h-[200vh]">
 
