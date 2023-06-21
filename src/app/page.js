@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import AboutMe from './components/MainSection/AboutMe';
 import IntroBanner from './components/MainSection/IntroBanner';
+import IntroPara from './components/MainSection/IntroPara';
 import About from './components/ProflieSection/About';
 import Achivement from './components/ProflieSection/Achivement';
 import ExpSection from './components/ProflieSection/ExpSection';
@@ -21,7 +21,8 @@ export default function Home() {
 			<section className="border-2 border-blue-500 w-[70%] h-[250vh] flex flex-col items-center">
 				<IntroBanner />
 				<div className="my-4 w-[878px] border-[1px] border-[#768390]"></div>
-				<AboutMe />
+				<IntroPara />
+				<div className="my-4 w-[878px] border-[1px] border-[#768390]"></div>
 			</section>
 		</section>
 	)
